@@ -1,0 +1,29 @@
+{
+  "name": "pasaportecovid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Login.html",
+  "directories": {
+    "dev": "start"
+  },
+  "scripts": {
+    "start": "set PORT=3000 && react-scripts start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.14",
+    "react-scripts": "^4.0.3",
+    "web3": "^1.6.1",
+    "webpack": "^4.44.2",
+    "webpack-log": "^3.0.2",
+    "wsl": "^1.0.0"
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.7.0",
+    "ganache-cli": "^6.12.2",
+    "lite-server": "^2.6.1",
+    "truffle": "^5.4.21"
+  }
+}
